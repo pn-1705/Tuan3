@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THÔNG TIN NGƯỜI DÙNG"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_marginBottom="20dp"></TextView>
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/botron_edittext_top"
+        android:hint="Họ và tên"
+        android:padding="5dp"
+        android:singleLine="false"
+        android:textColor="#007BFF"
+        android:textColorHint="#007BFF" />
+    <EditText
+        android:id="@+id/edt_id"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/edittext_1"
+        android:hint="Mã sinh viên"
+        android:padding="5dp"
+        android:singleLine="false"
+        android:textColor="#007BFF"
+        android:textColorHint="#007BFF" />
+    <EditText
+        android:id="@+id/edt_class"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/edittext_1"
+        android:hint="Lớp"
+        android:padding="5dp"
+        android:singleLine="false"
+        android:textColor="#007BFF"
+        android:textColorHint="#007BFF" />
+    <EditText
+        android:id="@+id/edt_year"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/edittext_1"
+        android:hint="Năm sinh"
+        android:padding="5dp"
+        android:singleLine="false"
+        android:textColor="#007BFF"
+        android:textColorHint="#007BFF" />
+
+    <EditText
+        android:id="@+id/edt_gender"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/botron_edittext_bottom"
+        android:hint="Giới tính"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="#007BFF"
+        android:textColorHint="#007BFF" />
+    <Button
+        android:id="@+id/btn_nhaplai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        android:padding="4dp"
+        android:text="Nhập lại"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
